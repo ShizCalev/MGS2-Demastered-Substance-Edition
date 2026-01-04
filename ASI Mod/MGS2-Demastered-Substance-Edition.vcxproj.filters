@@ -11,8 +11,11 @@
     <ClCompile Include="src\resources\logging.cpp">
       <Filter>Utility</Filter>
     </ClCompile>
-    <ClCompile Include="src\bugfix_mod_checks.cpp">
+    <ClCompile Include="src\resources\config.cpp">
       <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resources\stdafx.cpp">
+      <Filter>Resources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -39,6 +42,12 @@
     </ClInclude>
     <ClInclude Include="src\bugfix_mod_checks.hpp">
       <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resources\config.hpp">
+      <Filter>Utility\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resources\config_keys.hpp">
+      <Filter>Utility\Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
