@@ -95,11 +95,6 @@ jobs:
       working-directory: dist
       run: 7z a -tzip "../${{ github.event.repository.name }}}_Original_Resolution_run-${{ github.run_number }}.zip" *
 
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ github.event.repository.name }}_Original_Resolution_run-${{ github.run_number }}
-        path: dist/
 
     - name: Create 2x Upscaled release zip
       working-directory: dist_2x
