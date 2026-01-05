@@ -32,7 +32,7 @@ PS2 UI elements, and actual in-world textures are seperated into different downl
 ------------
 
 
-Please report any issues found with the pack, or any issues that are not already corrected, to our GitHub: [here](https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition/issues)
+Please report any issues found with the pack, such as textures I might've missed, to our GitHub: [here](https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition/issues)
 
 
 <br>
