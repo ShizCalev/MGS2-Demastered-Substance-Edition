@@ -36,7 +36,7 @@ https://github.com/ShizCalev/MGS2-Community-Bugfix-Compilation/issues
 
 1. [MGSHDFix](https://github.com/Lyall/MGSHDFix) (REQUIRED)
 2. [Knight_Killer](https://www.nexusmods.com/profile/KnightKiIIer)'s [MGS2 Better Audio Mod](https://www.nexusmods.com/metalgearsolid2mc/mods/3)
-3. MGS2 Community Bugfix Compilation - Base
+3. [MGS2 Community Bugfix Compilation](https://github.com/ShizCalev/MGS2-Community-Bugfix-Compilation) - Base
 4. MGS2 Community Bugfix Compilation - AI Upscaled Texture Pack (if desired)
 5. MGS2 Demastered Texture Pack
 6. [IroquoisPliskin1972](https://www.nexusmods.com/profile/IroquoisPliskin1972)'s [Solid Snake and Pliskin fixes and overhaul﻿](https://www.nexusmods.com/metalgearsolid2mc/mods/45)
