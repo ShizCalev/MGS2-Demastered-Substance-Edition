@@ -7,7 +7,6 @@ This texture pack for the 2023 PC Master Collection version of Metal Gear Solid 
 Optional AI Upscaled versions are also available, in some cases the results actually come out better than Bluepoint's upscaling, funnily enough.
 
 
-
 <br>
 
 ------------
@@ -19,7 +18,6 @@ https://github.com/ShizCalev/MGS2-Community-Bugfix-Compilation/issues
 
 <br>
 
-------------
 
 ## Installation Instructions
 
@@ -33,7 +31,6 @@ https://github.com/ShizCalev/MGS2-Community-Bugfix-Compilation/issues
 
 <br>
 
-------------
 
 ## Recommended Mod Load Order (from first to last):
 
