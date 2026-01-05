@@ -95,7 +95,6 @@ jobs:
       working-directory: dist
       run: 7z a -tzip "../${{ github.event.repository.name }}}_Original_Resolution_run-${{ github.run_number }}.zip" *
 
-
     - name: Create 2x Upscaled release zip
       working-directory: dist_2x
       run: 7z a -tzip "../${{ github.event.repository.name }}_2x_AI_Upscaled_run-${{ github.run_number }}.zip" *
