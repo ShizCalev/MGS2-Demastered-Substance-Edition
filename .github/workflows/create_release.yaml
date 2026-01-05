@@ -64,6 +64,23 @@ jobs:
             New-Item -ItemType Directory -Path "$t/$s" -Force | Out-Null
           }
         }
+        
+    # -------------------------
+    # Prepare output structure
+    # -------------------------
+    - name: Create dist folder structure
+      shell: pwsh
+      run: |
+        $targets = @("dist_ui", "dist_2x_ui", "dist_4x_ui")
+        $subdirs = @("textures")
+
+        foreach ($t in $targets) {
+          New-Item -ItemType Directory -Path $t -Force | Out-Null
+          foreach ($s in $subdirs) {
+            New-Item -ItemType Directory -Path "$t/$s" -Force | Out-Null
+          }
+        }
+
 
 
     # -------------------------
@@ -106,23 +123,41 @@ jobs:
     # Package everything
     - name: Create Base release zip
       working-directory: dist
-      run: 7z a -tzip "../${{ github.event.repository.name }}_Original_Resolution_v${{ steps.extract_version.outputs.version }}.zip" *
+      run: 7z a -tzip "../MGS2-Demastered-Sub_Base_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip" *
 
     - name: Create 2x Upscaled release zip
       working-directory: dist_2x
-      run: 7z a -tzip "../${{ github.event.repository.name }}_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+      run: 7z a -tzip "../MGS2-Demastered-Sub_Base_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
 
     - name: Create 4x Upscaled release zip
       working-directory: dist_4x
-      run: 7z a -tzip "../${{ github.event.repository.name }}_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+      run: 7z a -tzip "../MGS2-Demastered-Sub_Base_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+
+
+    # Package everything
+    - name: Create Base release zip
+      working-directory: dist
+      run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip" *
+
+    - name: Create 2x Upscaled release zip
+      working-directory: dist_2x
+      run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+
+    - name: Create 4x Upscaled release zip
+      working-directory: dist_4x
+      run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+
 
     - name: Generate Release Posting
       uses: ncipollo/release-action@v1
       with:
         artifacts: >
-          ${{ github.event.repository.name }}_Original_Resolution_v${{ steps.extract_version.outputs.version }}.zip,
-          ${{ github.event.repository.name }}_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip,
-          ${{ github.event.repository.name }}_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip
+            MGS2-Demastered-Sub_UI_ONLY_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip,
+            MGS2-Demastered-Sub_UI_ONLY_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip,
+            MGS2-Demastered-Sub_UI_ONLY_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip,
+            MGS2-Demastered-Sub_Base_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip,
+            MGS2-Demastered-Sub_Base_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip,
+            MGS2-Demastered-Sub_Base_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: ${{ steps.extract_version.outputs.version }}
         name: "${{ steps.extract_version.outputs.version }}"
