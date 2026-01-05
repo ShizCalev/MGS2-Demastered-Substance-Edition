@@ -5,6 +5,11 @@ env:
 
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        description: "Version (e.g. 1.2.3)"
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -30,26 +35,9 @@ jobs:
         submodules: recursive
         fetch-depth: 0
 
-    - name: Extract version from version.h
-      id: extract_version
-      shell: bash
-      run: |
-        VERSION_FILE="ASI Mod/src/resources/version.h"
-        echo "Reading version from $VERSION_FILE"
-
-        VERSION_MAJOR=$(grep '#define VERSION_MAJOR' "$VERSION_FILE" | awk '{print $3}')
-        VERSION_MINOR=$(grep '#define VERSION_MINOR' "$VERSION_FILE" | awk '{print $3}')
-        VERSION_PATCH=$(grep '#define VERSION_PATCH' "$VERSION_FILE" | awk '{print $3}')
-
-        version="${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}"
-        echo "Parsed version: $version"
-
-        echo "version=$version" >> $GITHUB_OUTPUT
-
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
 
-       
     # -------------------------
     # Prepare output structure
     # -------------------------
@@ -78,7 +66,6 @@ jobs:
           Copy-Item LICENSE "$t/textures/${{ github.event.repository.name }}_LICENSE" -Force
         }
 
-
     # Build Dist Folders
     - name: Build Dist Folders
       run: |
@@ -93,48 +80,45 @@ jobs:
         Write-Host "Running Build_Dist_Folders.py..."
         py $scriptPath
 
-
-    # Package everything
+    # Package everything - Base
     - name: Create Base release zip
       working-directory: dist
-      run: 7z a -tzip "../MGS2-Demastered-Sub_Base_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip" *
+      run: 7z a -tzip "../MGS2-Demastered-Sub_Base_PS2_Resolution_v${{ inputs.version }}.zip" *
 
     - name: Create 2x Upscaled release zip
       working-directory: dist_2x
-      run: 7z a -tzip "../MGS2-Demastered-Sub_Base_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+      run: 7z a -tzip "../MGS2-Demastered-Sub_Base_2x_AI_Upscaled_v${{ inputs.version }}.zip" *
 
     - name: Create 4x Upscaled release zip
       working-directory: dist_4x
-      run: 7z a -tzip "../MGS2-Demastered-Sub_Base_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+      run: 7z a -tzip "../MGS2-Demastered-Sub_Base_4x_AI_Upscaled_v${{ inputs.version }}.zip" *
 
-
-    # Package everything
-    - name: Create Base release zip
+    # Package everything - UI only
+    - name: Create UI-only Base release zip
       working-directory: dist
-      run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip" *
+      run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_PS2_Resolution_v${{ inputs.version }}.zip" *
 
-    - name: Create 2x Upscaled release zip
+    - name: Create UI-only 2x Upscaled release zip
       working-directory: dist_2x
-      run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+      run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_2x_AI_Upscaled_v${{ inputs.version }}.zip" *
 
-    - name: Create 4x Upscaled release zip
+    - name: Create UI-only 4x Upscaled release zip
       working-directory: dist_4x
-      run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
-
+      run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_4x_AI_Upscaled_v${{ inputs.version }}.zip" *
 
     - name: Generate Release Posting
       uses: ncipollo/release-action@v1
       with:
         artifacts: >
-            MGS2-Demastered-Sub_UI_ONLY_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip,
-            MGS2-Demastered-Sub_UI_ONLY_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip,
-            MGS2-Demastered-Sub_UI_ONLY_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip,
-            MGS2-Demastered-Sub_Base_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip,
-            MGS2-Demastered-Sub_Base_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip,
-            MGS2-Demastered-Sub_Base_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip
+          MGS2-Demastered-Sub_UI_ONLY_4x_AI_Upscaled_v${{ inputs.version }}.zip,
+          MGS2-Demastered-Sub_UI_ONLY_2x_AI_Upscaled_v${{ inputs.version }}.zip,
+          MGS2-Demastered-Sub_UI_ONLY_PS2_Resolution_v${{ inputs.version }}.zip,
+          MGS2-Demastered-Sub_Base_4x_AI_Upscaled_v${{ inputs.version }}.zip,
+          MGS2-Demastered-Sub_Base_2x_AI_Upscaled_v${{ inputs.version }}.zip,
+          MGS2-Demastered-Sub_Base_PS2_Resolution_v${{ inputs.version }}.zip
         token: ${{ secrets.GITHUB_TOKEN }}
-        tag: ${{ steps.extract_version.outputs.version }}
-        name: "${{ steps.extract_version.outputs.version }}"
+        tag: ${{ inputs.version }}
+        name: "${{ inputs.version }}"
         draft: true
         generateReleaseNotes: true
         artifactErrorsFailBuild: true
