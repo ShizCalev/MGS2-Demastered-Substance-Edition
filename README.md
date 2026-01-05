@@ -22,8 +22,7 @@ PS2 UI elements, and actual in-world textures are seperated into different downl
 ------------
 
 
-Please report any issues found with the pack, or any issues that are not already corrected, to our GitHub here:
-https://github.com/ShizCalev/MGS2-Community-Bugfix-Compilation/issues
+Please report any issues found with the pack, or any issues that are not already corrected, to our GitHub: [here](https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition/issues)
 
 
 <br>
@@ -58,7 +57,7 @@ https://github.com/ShizCalev/MGS2-Community-Bugfix-Compilation/issues
 <br>
 
 ## Examples
-| Demastered | Vanilla |
+| Demastered | Vanilla MC / Bluepoint Remastered |
 | --- | --- |
 | <img width="3840" height="2160" alt="2131640_20251221034832_1" src="https://github.com/user-attachments/assets/b826fbd0-02d8-4080-a107-f6331866e172" /> | <img width="3840" height="2160" alt="2131640_20251221034910_1" src="https://github.com/user-attachments/assets/71440d4d-f996-4538-bcc2-f0b7f39fe14f" /> |
 | <img width="3840" height="2160" alt="2131640_20251221224745_1" src="https://github.com/user-attachments/assets/ca1d71e6-37bf-49da-9f2d-8a0acb6585fd" /> | <img width="3840" height="2160" alt="2131640_20251221225501_1" src="https://github.com/user-attachments/assets/0c9d7cff-625d-4808-bac2-074a2b5f368a" /> |
