@@ -7,9 +7,6 @@ This texture pack for the 2023 PC Master Collection version of Metal Gear Solid 
 Optional AI Upscaled versions are also available, in some cases the results actually come out better than Bluepoint's upscaling, funnily enough.
 
 
-*This pack is complimentary to / requires the [MGS2 Community Bugfix Compilation](https://github.com/ShizCalev/MGS2-Community-Bugfix-Compilation), as it re-imports all the remaining PS2 textures already!
-
-
 <br>
 
 ------------
@@ -27,6 +24,7 @@ https://github.com/ShizCalev/MGS2-Community-Bugfix-Compilation/issues
 1. Download any the latest release zips from: [here](https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition/releases)
 1. Extract the contents of the zip into your game's folder.
 
+*This pack is complimentary to / requires the [MGS2 Community Bugfix Compilation](https://github.com/ShizCalev/MGS2-Community-Bugfix-Compilation), as it re-imports all the remaining PS2 textures already!
 
 
 <br>
