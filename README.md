@@ -11,6 +11,14 @@ Optional AI Upscaled versions are also available, in some cases the results actu
 
 <br>
 
+
+<br>
+
+PS2 UI elements, and actual in-world textures are seperated into different downloads for people who want to selectively demaster their game elements. ♥
+
+
+<br>
+
 ------------
 
 
