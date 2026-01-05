@@ -36,30 +36,13 @@ jobs:
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
 
-
     # -------------------------
     # Prepare output structure
     # -------------------------
     - name: Create dist folder structure
       shell: pwsh
       run: |
-        $targets = @("dist", "dist_2x", "dist_4x")
-        $subdirs = @("plugins", "logs", "textures")
-
-        foreach ($t in $targets) {
-          New-Item -ItemType Directory -Path $t -Force | Out-Null
-          foreach ($s in $subdirs) {
-            New-Item -ItemType Directory -Path "$t/$s" -Force | Out-Null
-          }
-        }
-
-    # -------------------------
-    # Prepare output structure
-    # -------------------------
-    - name: Create dist folder structure
-      shell: pwsh
-      run: |
-        $targets = @("dist_ui", "dist_2x_ui", "dist_4x_ui")
+        $targets = @("dist", "dist_2x", "dist_4x", "dist_ui", "dist_2x_ui", "dist_4x_ui")
         $subdirs = @("textures")
 
         foreach ($t in $targets) {
@@ -70,12 +53,6 @@ jobs:
         }
 
 
-    # -------------------------
-    # Build
-    # -------------------------
-    - name: Build
-      run: msbuild "ASI Mod\${{ github.event.repository.name }}.sln" /m -t:rebuild -verbosity:minimal -property:Configuration=Release -property:Platform=x64  -property:PlatformToolset=v143
-
     - name: Copy ASI files into all dist folders
       shell: pwsh
       run: |
@@ -84,13 +61,9 @@ jobs:
         foreach ($t in $targets) {
           Write-Host "Copying to $t"
 
-          Copy-Item "ASI Mod\x64\Release\${{ github.event.repository.name }}.asi" "$t/plugins/${{ github.event.repository.name }}.asi" -Force
-          Copy-Item "ASI Mod\${{ github.event.repository.name }}.ini" "$t/plugins/${{ github.event.repository.name }}.ini" -Force
-
-          Copy-Item README.md "$t/logs/${{ github.event.repository.name }}.log" -Force
-          Copy-Item LICENSE "$t/plugins/${{ github.event.repository.name }}_LICENSE" -Force
+          Copy-Item README.md "$t/textures/${{ github.event.repository.name }}_README.md" -Force
+          Copy-Item LICENSE "$t/textures/${{ github.event.repository.name }}_LICENSE" -Force
         }
-
 
     # Build Dist Folders
     - name: Build Dist Folders
