@@ -1,4 +1,4 @@
-# MGS2-Demastered-Substance-Edition
+# MGS2 Demastered (Substance Edition)
 [![Releases](https://img.shields.io/github/v/release/ShizCalev/MGS2-Demastered-Substance-Edition)](https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition/releases) [![Downloads](https://img.shields.io/github/downloads/ShizCalev/MGS2-Demastered-Substance-Edition/total)](https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition/releases) ![Commits](https://img.shields.io/github/commit-activity/t/ShizCalev/MGS2-Demastered-Substance-Edition) ![License](https://img.shields.io/github/license/ShizCalev/MGS2-Demastered-Substance-Edition)
 
 
