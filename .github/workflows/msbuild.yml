@@ -95,13 +95,13 @@ jobs:
 
     # Package everything
     - name: Create Base release zip
-      working-directory: dist
+      working-directory: dist_ui
       run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip" *
 
     - name: Create 2x Upscaled release zip
-      working-directory: dist_2x
+      working-directory: dist_2x_ui
       run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
 
     - name: Create 4x Upscaled release zip
-      working-directory: dist_4x
+      working-directory: dist_4x_ui
       run: 7z a -tzip "../MGS2-Demastered-Sub_UI_ONLY_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
