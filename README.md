@@ -12,6 +12,10 @@ This texture pack for the 2023 PC Master Collection version of Metal Gear Solid 
 
 A Sons of Liberty version will be released at a later date! (Some areas, such as the Shell 1 Core B2 Computer Room, were fairly heavily retextured between 2001 Sons of Liberty -> 2002/2003 Substance.)
 
+
+
+<br>
+
 Optional AI Upscaled versions are also available, in some cases the results actually come out better than Bluepoint's upscaling, funnily enough.
 
 
