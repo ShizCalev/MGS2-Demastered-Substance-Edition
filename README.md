@@ -1,10 +1,20 @@
 # MGS2 Demastered (Substance Edition)
 [![Releases](https://img.shields.io/github/v/release/ShizCalev/MGS2-Demastered-Substance-Edition)](https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition/releases) [![Downloads](https://img.shields.io/github/downloads/ShizCalev/MGS2-Demastered-Substance-Edition/total)](https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition/releases) ![Commits](https://img.shields.io/github/commit-activity/t/ShizCalev/MGS2-Demastered-Substance-Edition) ![License](https://img.shields.io/github/license/ShizCalev/MGS2-Demastered-Substance-Edition)
 
+[Nexus Page](https://www.nexusmods.com/metalgearsolid2mc/mods/121) | **GitHub Repo (You're already here!)**
+
+<br>
+
+<br>
+
 
 This texture pack for the 2023 PC Master Collection version of Metal Gear Solid 2 fully restores all the game's textures back to their pre-2011 HD Collection / 2003 Substance versions, reverting Bluepoint's "remastering", which in many cases was simply Bluepoint lazily running the game's textures through Sony PCL's [Real Scaling for HD](https://gigazine.net/gsc_news/en/20110808_sonypcl_real_scaling_for_hd/) anime upscaler and calling it a day. ([Source on Bluepoint's upscaler](https://i.imgur.com/5H4rZyc.png))
 
 A Sons of Liberty version will be released at a later date! (Some areas, such as the Shell 1 Core B2 Computer Room, were fairly heavily retextured between 2001 Sons of Liberty -> 2002/2003 Substance.)
+
+
+
+<br>
 
 Optional AI Upscaled versions are also available, in some cases the results actually come out better than Bluepoint's upscaling, funnily enough.
 
@@ -22,7 +32,7 @@ PS2 UI elements, and actual in-world textures are seperated into different downl
 ------------
 
 
-Please report any issues found with the pack, or any issues that are not already corrected, to our GitHub: [here](https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition/issues)
+Please report any issues found with the pack, such as textures I might've missed, to our GitHub: [here](https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition/issues)
 
 
 <br>
