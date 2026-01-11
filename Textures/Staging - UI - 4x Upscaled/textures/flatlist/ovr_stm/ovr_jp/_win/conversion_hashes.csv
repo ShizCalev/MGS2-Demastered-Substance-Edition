@@ -1,0 +1,5 @@
+filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled
+animal_alp_ovl.bmp,11a5400e34fd501c1796238192c86657deca3da8,cd3926cb48ed30167dc20e459934a2439f444443,true,ps2 textures\OPAQUE\bp_remade\no_mip_fixes\ui,true,true
+taisa_gb_alp_ovl.bmp,4bca4bde1db6097d4e2064a0cf7822e20c5ad9f3,7ff555733d2873dc9fdd4fc47688160ace1db36e,true,ps2 textures\OPAQUE\no_mip_fixes\ui,true,true
+taisa_mgs1_alp_ovl.bmp,917fe43c17b7b6d1f2627234495c3ebcb4faccc8,4669932824765de0167458448b5570c0fa6315de,true,ps2 textures\OPAQUE\no_mip_fixes\ui,true,true
+taisa_msx_alp_ovl.bmp,121715b5870192f72a0866bf9e5bbc9ea3e947f3,d9aa0395a1195dbe052e7a0d6bbb73ef03761c2f,true,ps2 textures\OPAQUE\no_mip_fixes\ui,true,true
