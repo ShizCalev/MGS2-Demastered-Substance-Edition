@@ -55,12 +55,22 @@ jobs:
     - name: Create dist folder structure
       shell: pwsh
       run: |
-        $targets = @("dist", "dist_2x", "dist_4x", "dist_ui", "dist_2x_ui", "dist_4x_ui")
-        $subdirs = @("textures", "plugins", "logs")
+        $baseTargets = @("dist", "dist_2x", "dist_4x")
+        $uiTargets   = @("dist_ui", "dist_2x_ui", "dist_4x_ui")
 
-        foreach ($t in $targets) {
+        $baseSubdirs = @("textures", "plugins", "logs")
+        $uiSubdirs   = @("textures")
+
+        foreach ($t in $baseTargets) {
           New-Item -ItemType Directory -Path $t -Force | Out-Null
-          foreach ($s in $subdirs) {
+          foreach ($s in $baseSubdirs) {
+            New-Item -ItemType Directory -Path "$t/$s" -Force | Out-Null
+          }
+        }
+
+        foreach ($t in $uiTargets) {
+          New-Item -ItemType Directory -Path $t -Force | Out-Null
+          foreach ($s in $uiSubdirs) {
             New-Item -ItemType Directory -Path "$t/$s" -Force | Out-Null
           }
         }
