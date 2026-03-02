@@ -43,7 +43,7 @@ jobs:
       shell: pwsh
       run: |
         $targets = @("dist", "dist_2x", "dist_4x", "dist_ui", "dist_2x_ui", "dist_4x_ui")
-        $subdirs = @("textures", plugins, logs)
+        $subdirs = @("textures", "plugins", "logs")
 
         foreach ($t in $targets) {
           New-Item -ItemType Directory -Path $t -Force | Out-Null
