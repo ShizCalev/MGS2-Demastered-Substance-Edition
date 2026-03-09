@@ -1,7 +1,6 @@
 filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,upscaler_version,upscaler_type,ctxr3_converted
 0009bc34,f440b028952b70270ae2c9a2f0732eb1db49fe8e,bdf0e969f20068974336125039e0af96a0fa848f,false,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,false,0,none,true
 0051a133,6ea3ef9b9433209eb5c7867110a611062a3a863a,14b227f24463703319fe6807bc900d3114979988,false,ps2 textures\tri with alpha\no_mip_fixes\ui,false,false,0,none,true
-006e6ff1,3d5df1d18a4f17fef94dcd7dca23c8303428a4d6,4de784850971633e1d94d6505a0497e43776cc37,false,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,false,0,none,false
 00fcb7ac,37640cee69515a16a1af9f04c5550909d13d9fb4,5026ef4fe1d0aecb6f13a9232c9877987e91ca8a,false,ps2 textures\OPAQUE\bp_remade\no_mip_fixes\ui,true,false,0,none,true
 00fcbfac,06990c053a14b6c8296b13965b3188db6020d563,e6773b7ff1990f67f30cb97ba7cad1de71ead847,false,ps2 textures\OPAQUE\bp_remade\no_mip_fixes\ui,true,false,0,none,true
 animal_alp_ovl.bmp,11a5400e34fd501c1796238192c86657deca3da8,f72ef158812350048a0f4ce6c5672f1926b446f8,false,ps2 textures\OPAQUE\bp_remade\no_mip_fixes\ui,true,false,0,none,true

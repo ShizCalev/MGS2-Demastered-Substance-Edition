@@ -1,7 +1,6 @@
 filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,upscaler_version,upscaler_type,ctxr3_converted
 0009bc34,f440b028952b70270ae2c9a2f0732eb1db49fe8e,83f5d9bcbc6af19e861669be604002f07aa01ec3,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false
 0051a133,6ea3ef9b9433209eb5c7867110a611062a3a863a,6a1491243dc753266efb1a0e9abd8511c51d99ef,true,ps2 textures\tri with alpha\no_mip_fixes\ui,false,true,2,remarci_4x,false
-006e6ff1,3d5df1d18a4f17fef94dcd7dca23c8303428a4d6,c51a86e42fdd2c3f88e83f7fdfc2c3901b30f7d8,false,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false
 animal_alp_ovl.bmp,11a5400e34fd501c1796238192c86657deca3da8,6058b3290e01acb777f59eb38397f30e20bcb4fc,true,ps2 textures\OPAQUE\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false
 berrazano_alp_ovl.bmp,9ac32018cb46eac983a5663665d4c5ed53b0c803,b18af927c52d933d5d88e5137f2a1ebbfff9a17a,true,ps2 textures\HAS ALPHA\no_mip_fixes\ui,false,true,2,remarci_4x,false
 bigshell_alp_ovl.bmp,080a4eb6a939a3e2838020627227a7480b51f0bf,8bb446a233af72bb8d4950ed7472f7c34875302a,true,ps2 textures\HAS ALPHA\no_mip_fixes\ui,false,true,2,remarci_4x,false
