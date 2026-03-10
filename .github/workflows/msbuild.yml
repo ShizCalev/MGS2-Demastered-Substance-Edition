@@ -80,7 +80,8 @@ jobs:
           Copy-Item "ASI Mod\x64\Release\${{ github.event.repository.name }}.asi" "$t/plugins/${{ github.event.repository.name }}.asi"
           Copy-Item "ASI Mod\${{ github.event.repository.name }}.ini" "$t/plugins/${{ github.event.repository.name }}.ini"
           Copy-Item README.md "$t/textures/${{ github.event.repository.name }}_README.md" -Force
-          Copy-Item README.md "$t/logs/${{ github.event.repository.name }}.log" -Force
+          Copy-Item README.md "$t/logs/${{ github.event.repository.name }}_Game.log" -Force
+          Copy-Item README.md "$t/logs/${{ github.event.repository.name }}_Launcher.log" -Force
           Copy-Item LICENSE "$t/textures/${{ github.event.repository.name }}_LICENSE" -Force
         }
 

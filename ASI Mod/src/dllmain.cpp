@@ -61,11 +61,11 @@ static void InitializeSubsystems()
     INITIALIZE(DetectGame());                      //1
     INITIALIZE(Config::Read());
 
-    INITIALIZE(VerifyInstallation::Check());         //3 - Make sure Steam file verification
 
 
     if (!(eGameType & LAUNCHER))
     {
+        INITIALIZE(VerifyInstallation::Check());
         INITIALIZE(CheckForUpdates());
     }
     
@@ -90,6 +90,10 @@ DWORD __stdcall Main(void*)
     }
     mainThreadFinishedVar.notify_all();
 
+    spdlog::info("All systems initialized. shutting down {}.", sFixName);
+    spdlog::shutdown();
+    FreeLibraryAndExitThread(baseModule, 0);
+    spdlog::info("FreeLibraryAndExitThread returned, this should never happen!");
     return TRUE;
 }
 
@@ -152,6 +156,11 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 
         // Prevent monitor or system sleep while the game is running.
         SetThreadExecutionState(ES_CONTINUOUS | ES_SYSTEM_REQUIRED | ES_DISPLAY_REQUIRED);
+    }
+    else if (ul_reason_for_call == DLL_PROCESS_DETACH)
+    {
+        spdlog::info("DLL_PROCESS_DETACH called, shutting down {}.", sFixName);
+        spdlog::shutdown();
     }
 
     return TRUE;
