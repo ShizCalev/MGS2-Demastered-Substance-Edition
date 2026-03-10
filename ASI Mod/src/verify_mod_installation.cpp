@@ -5,18 +5,11 @@
 
 #include "common.hpp"
 #include "logging.hpp"
-
-
-struct CtxrHashEntry
-{
-    const char* stem;
-    const char* sha1;
-};
+#include "helper.hpp"
 
 constexpr CtxrHashEntry kFirstVersionCorruptUiTextures[] =
 {
     {"00232162", "f6c2e6b1a58c668ca5f1aab021a4e047f1d5641d" },
-    {"00238df3", "3e0d8455ca8f41a6a3bfffaffd9bfb0dac64fa96" },
     {"003155d8", "29cdca4c0be2cde96c8e6870d51dd2ceec4ada94" },
     {"005155d8", "e84562a28491dc4620b69e7b330c2e6ef6ba7f24" },
     {"005255d8", "936dc1a80b5ee47e29d64c4488bac3cbcfc85ee4" },
@@ -49,6 +42,7 @@ constexpr CtxrHashEntry kFirstVersionCorruptUiTextures[] =
     {"museum_fr_alp_ovl.bmp", "badb4c85722e524624caadecc44b51c1010f0be4" },
     {"museum_it_alp_ovl.bmp", "f53092ca3e7d1b92eb996a8f906c09edb4316c21" },
     {"museum_j_alp_ovl.bmp", "aabb789f382d7a800dbe3d4d87fd68140e518d2e" },
+    {"00238df3", "3e0d8455ca8f41a6a3bfffaffd9bfb0dac64fa96" }, //always have the smallest file at the end to minimize time spent sha1 checking
 };
 
 void VerifyInstallation::Check()
@@ -59,56 +53,10 @@ void VerifyInstallation::Check()
     }
 
     {   // v1.0.1 -> v1.0.2 corrupt UI texture cleanup
+        static_assert(std::size(kFirstVersionCorruptUiTextures) == 34, "kFirstVersionCorruptUiTextures count changed");
 
         const std::filesystem::path baseDir = sExePath / "textures" / "flatlist" / "ovr_stm" / "_win";
 
-        constexpr size_t kEntryCount = std::size(kFirstVersionCorruptUiTextures);
-        static_assert(kEntryCount == 34, "kFirstVersionCorruptUiTextures count changed");
-
-        spdlog::info("Checking for presence of corrupt UI textures from v1.0.0 - v1.0.1 update...");
-
-        const CtxrHashEntry& sentinelEntry = kFirstVersionCorruptUiTextures[kEntryCount - 1];
-        const std::filesystem::path sentinelPath = baseDir / (std::string(sentinelEntry.stem) + ".ctxr");
-
-        if (!std::filesystem::exists(sentinelPath) || !Util::SHA1Check(sentinelPath, sentinelEntry.sha1))
-        {
-            spdlog::info("No corrupt UI textures found, skipping cleanup.");
-            return;
-        }
-
-        bool allSucceeded = true;
-
-        for (size_t i = 0; i < kEntryCount; ++i)
-        {
-            const CtxrHashEntry& entry = kFirstVersionCorruptUiTextures[i];
-            const std::filesystem::path filePath = baseDir / (std::string(entry.stem) + ".ctxr");
-
-            if (!std::filesystem::exists(filePath))
-            {
-                continue;
-            }
-
-            if (!Util::SHA1Check(filePath, entry.sha1))
-            {
-                continue;
-            }
-
-            std::error_code ec;
-            std::filesystem::remove(filePath, ec);
-
-            if (ec)
-            {
-                spdlog::warn("Corrupt UI cleanup halted: failed to remove {}: {}", filePath.string(), ec.message());
-                allSucceeded = false;
-                break;
-            }
-
-            spdlog::info("Removed corrupt UI ctxr: {}", filePath.string());
-        }
-
-        if (allSucceeded)
-        {
-            spdlog::info("Corrupt UI cleanup fully completed.");
-        }
+        Util::RemoveMatchedCtxrFilesWithSentinelLast(baseDir, std::span<const CtxrHashEntry>(kFirstVersionCorruptUiTextures), "corrupt UI textures from v1.0.1 -> v1.0.2 update");
     }
 }
