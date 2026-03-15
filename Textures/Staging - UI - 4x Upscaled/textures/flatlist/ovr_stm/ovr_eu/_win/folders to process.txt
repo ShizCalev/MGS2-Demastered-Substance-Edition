@@ -2,3 +2,4 @@ C:\Development\Git\Afevis-MGS2-Bugfix-Compilation\Texture Fixes\Self Remade\Fina
 C:\Development\Git\Afevis-MGS2-Bugfix-Compilation\Texture Fixes\Self Remade\Finalized\Self Remastered\UI\English
 C:\Development\Git\Afevis-MGS2-Bugfix-Compilation\Texture Fixes\Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared
 C:\Development\Git\Afevis-MGS2-Bugfix-Compilation\Texture Fixes\Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\English
+C:\Development\Git\Afevis-MGS2-Bugfix-Compilation\Texture Fixes\Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Substance\UI

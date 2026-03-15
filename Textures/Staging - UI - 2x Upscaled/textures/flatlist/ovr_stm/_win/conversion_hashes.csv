@@ -284,9 +284,9 @@ filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,u
 006aa618_5e5881ab87a4498b100e3983cca31058,1bfcfb1d924deb8a9b4380ab7b761b11bad4d42c,1fbab7b422bd7054e5e8e8ee18ff0edd4420689e,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 006af2ba,bc9d541872b39bc35a34a5d16fa595b732d5f751,f9ffaaa1a901b54c011263ed1dd60028a73b9d5b,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 006af2bb,832b312b8a833e46a0179695ba3e8d57cfe7bbb3,21fd81e1943b0d89651cd0ff66619a26e8d6c7fa,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-006b325b,840bd05e113def2cc5f22b59acbdad874ad8546f,2051193f2530baac3fcccebbadb84967e1d97a77,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+006b325b,840bd05e113def2cc5f22b59acbdad874ad8546f,007344d787ccaead71aff35e73b9ebaf8b5d7ac3,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
 006b508f,c74e1cfcc6195541dbadfd55a2850dc2bbf8e2b0,39528e33c52d964de611c5e9afa773cc2291de7b,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-006b5ae3,1f7e3e8a5405675523e8d90c8cc092599be72587,21e67e5d71bc23ffcb3dc380ff79b01139043d12,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+006b5ae3,1f7e3e8a5405675523e8d90c8cc092599be72587,16a37b288bf09dd73bfbbf092ab9a78ea55d9033,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
 006b9021,8d865749b7c8acaae0bb69235ca38255bec369ed,4243b510f3924d32286820fc02dd1e823cd40673,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 006b97ed,b91bd116e34a2760de2fa7919d4b3b29ebf76a59,5efcfb650afa189d685822554595c74d9314d26c,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 006ba618,fb6d4d1e18972dbde62135b786d4a6647191639c,da4b64b1542842f51a3c16120ee5268fa3d6bc70,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
@@ -450,13 +450,13 @@ filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,u
 00c9e1b5,81556cdf30f72d6a2a90316a0b73886afee9d055,bf6446774549e559b149f49afbbb8f481961691c,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00ca3f11,ce71e77a5bbbf2667e6f9b5b9abdb2993b1e5e58,807850b137a5fbc8d2e117627cc665a14186bfa2,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00cada49,e489d799fa0c2d2427004e1806b6e73c3f43c107,05736edabaeadb17dc8f1de2af54c7eebe718f7d,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-00cb303d,7381099335ef27a2d4cf17c5096f1dbb71e68ef0,40a5f67802c1edc04284e48c2fd1a24f22309b4d,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+00cb303d,7381099335ef27a2d4cf17c5096f1dbb71e68ef0,19a61acf01bb627fa47f9e40921c5586a3f51ef4,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
 00cb3f11,089508e53a6a0ba5e64f3185a7a854c90e6890bc,f63e16bfab73939c92f2ad73ec8012276f987e45,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00cc15b7,1697712d70a2ca3614a4e05a8e6f17376646a262,8119cac6e6ca3c3e2710b40d9afb53ff1d718586,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00ccb0a6,2ea1ec4b79bed1214c764079fd4b62dda10d15f1,f6125351b8e5d6840c94cef1e919fae3d2dd1b74,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00cd360c,648520dfa458e05a2da9cf5fd7d03c7e16fd1f4c,383dac4520b8a07c6f6d4c5a0a579a1b9355e395,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00cd868e,e2df9f8b5bba258b6cf94e9a34607aee3a41eb88,1a8c210a68d99202cc784db406d696dd3de363eb,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-00cda6c1,ac9daf2f883d1f7893c23c0f664a624213c9ea71,0a135f7102226b35c9958855af6bc17596b14a6d,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+00cda6c1,ac9daf2f883d1f7893c23c0f664a624213c9ea71,311add50d43c04cd6550ea58eb2e389cd9eb0de4,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
 00cdb0a6,8ac22692e97fe816528b45ded7c016d9b7dad042,d9a43745f279c6d6af6680da8bd4f75a501250e6,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00cdeba7,151d7e43b72d154148c58bf9b032e632ee8a6211,65d02b169eba7d26baffed2aacee92b936504b13,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00ce999d,9a93567bbf9bc9c0e04cf57ae6d828d79cb37432,52dd5bb6a0ae566bd21e1089e7e7304a8fae8f7c,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
@@ -477,7 +477,7 @@ filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,u
 00d84d77,f31d786271c66b93e8194a88a61e6d5ea5f56f8c,9e6f46faebe1c89f1902d8bebe38657e20c7c6b5,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00d85d25,33f459e34cf054c61f49f2e044098760c0468cef,0513f78039d1c183e732577bfe68be6930b85093,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00da15e3,d35953c665c1505834cd20c46f73e621016bf8aa,b59e2c2a44f28c5da2f77e8dee1c10c4f9aaeec4,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-00dbc1dd,9b1a5617691a9338461fed2ce65fdc6d1dd8e3d2,dcfadef9e5736b9f4f5f1435cad9533e87d058a5,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,false,0,none,false,1
+00dbc1dd,9b1a5617691a9338461fed2ce65fdc6d1dd8e3d2,5211d86bd8208468c23aff01fd4b965d8cd2b67b,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,false,0,none,true,1
 00dc7290,64f1e31ddb9bb155f271f168428556ba1f65d225,5d98740f3ba2cb41823c8aea3b966dfca3b1d24f,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00dcd5c6,d8320f4b02189cc345b8b5f641da81bed1a9b28d,951741f6a4dc219cc2379ca189c099f847848fd2,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00dd93f9,0cbad0a64892b096c97b78fd207d77a3d431211c,9b0f6c33446b7b486603449a0639660b3f5b3bdd,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
@@ -494,9 +494,9 @@ filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,u
 00e8533f,2b8fe4d20c152852529d5d9882ea23667f216998,280ec6a8d67fe6ae060ff8b8680c6028dbe98a6a,true,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00e8533f_c9656c04a66db3d24c7fb50dd516a45e,2e28990606548af736bd627294164588e92caefe,42ce7c3d9ad0ac2e77080bbd94b91c3db7a79f1f,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00e9800a,6d46ada939823af8e6f8484678adb3cd31244659,b1fcaab1ebb8bd86e816da3480f9c187476f9be3,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-00eb32b4,e974b191a415a471935632ba1095887597e92ef0,dba61fe1629a5e6b18ad876879a1b2e437782390,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
-00eb5f92,4992aaa27706e72ffecf312bf67fd49a339916d2,b4b6a9de58aac24df6dd7708119ee76b7fd00c12,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
-00eb7512,16b7f55c86dee3cbd3eb12d79451305f65f5cc73,746bb52ec2783361c4cc1fafb7a3da583561bcef,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+00eb32b4,e974b191a415a471935632ba1095887597e92ef0,2fce5c442f1a20dff43c13bc71c84be662864ea7,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+00eb5f92,4992aaa27706e72ffecf312bf67fd49a339916d2,18a0f6738dfaa468a1c0411e4209176ba79db763,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+00eb7512,16b7f55c86dee3cbd3eb12d79451305f65f5cc73,31a1f0af48e99c7005c6dc10fa6822c935c5c24a,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
 00ec73af,29d17d58533b786370e84ed333de26a328796b70,a0088e31eca8b22c38aed01637af63cfac5a0e21,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00eca640,14aed798bf56c9b9a22f642f05f283bcacf389e4,b980cb3b9b6e567ef9018ce2bb79f908109a2d1d,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 00edb58b,35a2ccdb84d96596d833fed890672957c7dfdcd8,62d59ad57edf7491cc6dfa2b5e8145e2dba9ff36,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
@@ -585,17 +585,17 @@ azabu_alp_ovl.bmp,46453afd0bc198ada7cff0626d596df7354e82c5,1a6938b15aaf902cca304
 b_henden_alp_ovl.bmp,4cd16c16817c731ef78dea6b4842d3e978784706,fbcf21b49f65e0fd836266832b175cc0a00599b7,false,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,false,0,none,true,1
 bc_renraku_alp_ovl.bmp,b1fb4420d2965a2222f2a1bbfa49f51441640a39,31be2e0e5f57a54992f229b5d0217a070c5474ce,false,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,false,0,none,true,1
 blt_alp_ovl.bmp,5c584e1011adbde70671df4c44933dfedfe7ad76,33179f5fd0f3ae9db577f376e1e698be42eb2adc,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-bnd_alp_ovl.bmp,cdaa14841ca01151764d62a03143c5ac38af9d08,4d5a64eca6448aced1d2ea6c9a2770b0cf95dc71,false,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
+bnd_alp_ovl.bmp,cdaa14841ca01151764d62a03143c5ac38af9d08,dcd9d2a25b752334ebf1771406e117dc8f2f478e,true,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 bsn1_alp_ovl.bmp,abf113554168e945a55538b962696fea6aa368af,29d36a3f88c227dd992d275d401b4d4d19984f32,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 bsn2_alp_ovl.bmp,46c78679f8732f2742cea492c5ebb83636d1206e,86b771ddd0b53138370b19be2de913242a2b6c2d,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 c_shokudou_alp_ovl.bmp,a346bc648d0ad01592bd87b5878d70b19b861993,6cc85aef4537eb51251cb15216d03a057d931c49,false,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,false,0,none,true,1
 camera_alp_ovl.bmp,8efab63df4261c670a391233bfead4d0aeaff8bd,c3e67166fef1750399c13e2137386ad1f3d3a737,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 cau_alp_ovl.bmp,55f87f5c5a0aa20748f5e981af2a1fa4991fb4c1,5f5f2dc8ce0f8e7ceb264811ef67267a92730676,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-cbox_dry_alp_ovl.bmp,afe05c97d3c3e144ad9cda1dcac8b48e99d65064,8de60fed4d3265010467407993ab28fe2d98944b,false,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-cbox_wet_alp_ovl.bmp,68234e86d142a22082c10a883fb09dfd48c2cc75,2a88709ad80a3b4f9cf03d2df52643e2879185f9,false,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
+cbox_dry_alp_ovl.bmp,afe05c97d3c3e144ad9cda1dcac8b48e99d65064,0847d96268fc338b889a276927fc11162226114a,true,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
+cbox_wet_alp_ovl.bmp,68234e86d142a22082c10a883fb09dfd48c2cc75,d9d7da24c13033eb2a3a530f9981614b0495e9d2,true,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 cbx_a_alp_ovl.bmp,62ea388bf0e6c799d7af69baff2c9cc4cd52e40a,dc2220b7ec3c1af09352bc96891cc16d04b4de5b,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 cbx_b_alp_ovl.bmp,c951578b30e582e22266049f0022403670193401,c16041a0967dcad98140d198d54025cfa178a597,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-cbx_c_alp_ovl.bmp,582071cf963f43f7056e068cf75cdc1bf2488c75,3ae6895941c46ccf79b2d6f72d4e255cb953e2d4,false,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
+cbx_c_alp_ovl.bmp,582071cf963f43f7056e068cf75cdc1bf2488c75,86b0e3b76dad8fe71f17c2a3f12e54df0be862c1,true,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 cbx_d_alp_ovl.bmp,eed0c42c72bfef1a2ffc02ad8d0e3512cc5d71b0,04f9ab1029078d4b83204fced307d65d75e4f985,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 cbx_e_alp_ovl.bmp,d6bda1b9c64e7091766444313abd12d236277d14,a7414a3093d8e8ffacebb987b004a66f60c2f1ec,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 cbx_f_alp_ovl.bmp,5af42a9ac82065ab538ce79a27c288ac3e5982a4,d6273654936674a0963ce36c4da6db30dbbba0d5,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
@@ -634,7 +634,7 @@ fa_renraku_alp_ovl.bmp,31711818aebdd75a548abee656862357fa321d2b,2f51e3502542b06d
 fake_exit_alp_ovl.bmp,03544f8fd26cd47213d6f0099c116a07ee683822,c498330f4425f725bc72b78630597aa2379794b0,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 fall_alp_ovl.bmp,186254412b8c7ca3703158b3f6b7a09ecfc9293a,4a5775d8d7d5c41ce3c62aa459e0f1e8058e5da2,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
 fiction_e_alp_ovl.bmp,16f568aae75747082a5d40fca775a17362dd50dd,6472e904fae311e8a953ffd292f427f2b2a69ca6,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,false,0,none,true,1
-fms_alp_ovl.bmp_afd64baad5879a54d69dceeb416e0963,7b7d21cbffb0864d67ff3b8e0f3868220e46457c,8694e8a3e1e294c9d7db27a4bbb44dee1591fcbe,false,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
+fms_alp_ovl.bmp_afd64baad5879a54d69dceeb416e0963,7b7d21cbffb0864d67ff3b8e0f3868220e46457c,4afad0aadb6ca16dc33946ef1026e5058f28ea03,true,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 funabashi_alp_ovl.bmp,ad96c7b691890e64a52dfced4e5f5cedc9135db0,de2042260298db4e18c0633a7ac3ac9ebd6b30ca,false,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,false,0,none,true,1
 gol1_alp_ovl.bmp,e01afd4fec9e0fab7193bd3300e1eb3b287908c5,dd301099973e1b68b9f16277eb8006a1b9a2d7e1,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 gol2_alp_ovl.bmp,95edcd78fdcd2e33d7e26218ee6d3f04161fed88,418f031f3c3ff21fff59ef5b32478fc526725f33,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
@@ -663,14 +663,14 @@ mag_alp_ovl.bmp,d05fc9761a8f9bc03afa536180849e4206721293,3d35de26f97afd51fed8eaf
 medi_alp_ovl.bmp,d41b16a57fa7767e3e0a3288382285fcf39f58c2,0fb2a00e9a57d8ab06946b6d504ee0c07a80ee3f,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 mnd_alp_ovl.bmp,cd2b04e054291a657be86d8e9b797ee96bf3314a,58ddd1eda0e04f933627d8e8252a5110059a74c7,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 mod_alp_ovl.bmp,047c2215cea945572613840e101931598c8fe78b,9fc04911a6937eed1ce29e3c9f06f1904a5395fb,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-museum_de_alp_ovl.bmp,f1914199d5fa351bc9354f5377d8c6359dbfd989,83873e3df9f118affbaea352e71c8802032c455e,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
-museum_e_alp_ovl.bmp,b2dfc49f2fd115674db43b1090ddf424ac7cc163,07889683968cf51a3908898dfdc6cb1a99dd207b,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
-museum_es_alp_ovl.bmp,37e7407b0c9f6a524e2ce65c893cb74d2acf6818,bc952088c40c6fef5dfb5faa6631f3c539d79e75,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
-museum_fr_alp_ovl.bmp,7c222f2388761d64f43a1312df42ab15e1bfa2e0,c3bca6c185c9477d7d3c3b02f8194986323c3b04,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
-museum_it_alp_ovl.bmp,d859a178c958c3acc6f3cd9d373d97f194d1a47e,9307ed761f6b33bcfcc8b6d0e801dd64ad71efcf,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
-museum_j_alp_ovl.bmp,8605892e1ea006d764548ea864c0a92ba4890f8f,2a6d1af663908b049215cf88310f471981335436,false,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+museum_de_alp_ovl.bmp,f1914199d5fa351bc9354f5377d8c6359dbfd989,a3c7d78788ba5d6e0109074cf8f3a945822748b0,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+museum_e_alp_ovl.bmp,b2dfc49f2fd115674db43b1090ddf424ac7cc163,590d77a1cc68aa8c284232b35021b31e2337c47a,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+museum_es_alp_ovl.bmp,37e7407b0c9f6a524e2ce65c893cb74d2acf6818,944d340393baaafeee56017e12fb5b4442386b43,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+museum_fr_alp_ovl.bmp,7c222f2388761d64f43a1312df42ab15e1bfa2e0,b1df936e6f4b88d3677dffdf38b7e9886ccc6b7e,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+museum_it_alp_ovl.bmp,d859a178c958c3acc6f3cd9d373d97f194d1a47e,0f021a872cea385d85a4f2416f5d225177546ce5,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
+museum_j_alp_ovl.bmp,8605892e1ea006d764548ea864c0a92ba4890f8f,c885e3bcbc0e1c375c34e5b9052dfaa562923ddd,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
 newyork_alp_ovl.bmp,f2cc67a67db38384a6b44fe25437b555d6067187,b313957a2e67119e87b17e3a1a66657ca7beb7e3,false,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,false,0,none,true,1
-ngl_alp_ovl.bmp,e6b75b2ca3e5acdcccba923b757af050337dbdc9,7e8c7cc49bf9f5cfa78f028318d28902a1315f08,false,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
+ngl_alp_ovl.bmp,e6b75b2ca3e5acdcccba923b757af050337dbdc9,f30d8e9dc3080a6d5fbadfd7ac57a69979e62581,true,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 niki_alp_ovl.bmp,975a80de7ed7a46a375451930a7ce2bb8c7ff531,5340091b710b83896865e8e08219e491f3f6eb94,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 nom_b_alp_ovl.bmp,297948b6ac2f7177f6a4bd84557edfdb150400ec,757b498a528af6a4de28609b3806ee980a54435e,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 odai_a01a_ldr00.bmp,71a1d936e087e3557088d2b78db9e8629c82f328,935fd297b5b395b51dfa812f940cf6333dda3f72,true,ps2 textures\opaque\bp_remade\no_mip_fixes\ui,true,true,2,remarci_4x,false,0
@@ -744,9 +744,9 @@ sr16e_alp_ovl.bmp,3dc448703e294ce6438f00e4c5d9a2528ec91f85,6b2a5c5c4fe79076a80d5
 sr17e_alp_ovl.bmp,7c62060edc2ae073fc32e37d4743b57bd249ca7a,f13c074ceb54a7c12ba4f3fe2827bd9b98371687,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 sr18e_alp_ovl.bmp,e3207eb985da7280d87f06421616a1c7a39cfab4,dc1c654f05e717089baf4d9074389ee62fe31394,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 sr18e_alp_ovl.bmp_472bed0a443e29c45de18a81421d2ee0,8c544f178d09aa99245ad3e7fb9f8b819fe9111f,fa520c019887ee1cb7af47d4b88821063c203d3b,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-sr18j_alp_ovl.bmp,95db2cbe8ef9ff121e4ce11747d72ad32bbd4c00,837dfb5069bfd0e13a2521175a2e61fd5047ca82,false,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
+sr18j_alp_ovl.bmp,95db2cbe8ef9ff121e4ce11747d72ad32bbd4c00,fbe30cce6f19913df7c113035846bb22a4be5169,true,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 sr19e_alp_ovl.bmp,b66e94d3ca315b1278d70b51b9bd6c03d05c2503,856c3cbe40ea9f48df938a46ec4b19d07db92588,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
-sr19j_alp_ovl.bmp,4d58d02b3e357084ffece23539458bd5a2bba057,3c5ced936d8cedfa5c575687c0cf5533c9d498b7,false,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
+sr19j_alp_ovl.bmp,4d58d02b3e357084ffece23539458bd5a2bba057,d1245efd698447be772d0d3309b278a667dd2eeb,true,ps2 textures\tri with alpha\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 sr20e_alp_ovl.bmp,2624c2dc2919c6ecf1706964da6654dfa79747dd,d98a8c148dbe50bf8b160d7e427a2ef53b09b3ed,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 sr21e_alp_ovl.bmp,3a9da0565c53f5fd5fb7194543624c718ed7474e,8e523b346e0b1d0fff614666f2bb3af25dfd9e58,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
 sr22e_alp_ovl.bmp,58e2830219a4038dd8ab03acd30107931f76b1c3,eef48f05613ab6bcd2e8025c98c4a86aec9a0238,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,2,remarci_4x,false,0
