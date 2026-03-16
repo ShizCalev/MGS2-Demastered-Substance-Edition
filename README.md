@@ -56,8 +56,7 @@ Please report any issues found with the pack, such as textures I might've missed
 3. [MGS2 Community Bugfix Compilation](https://github.com/ShizCalev/MGS2-Community-Bugfix-Compilation) - Base
 4. MGS2 Community Bugfix Compilation - AI Upscaled Texture Pack (if desired)
 5. MGS2 Demastered Texture Pack
-6. [IroquoisPliskin1972](https://www.nexusmods.com/profile/IroquoisPliskin1972)'s [Solid Snake and Pliskin fixes and overhaul﻿](https://www.nexusmods.com/metalgearsolid2mc/mods/45)
-7. All other mods
+6. All other mods
 
 
 <br>
