@@ -3,6 +3,10 @@ d_oil_ref_add_alp_ovl_mod1120.bmp,17f0c89560262facc329bff0066ed14c40438288,02ca9
 door_b00.bmp,b3d59a74e89f5adc19f597fa878822140ac3efdc,2c33f7a8c37be0f569a9d763cf52763c7c779690,true,ps2 textures\OPAQUE\bp_remade,true,true,2,remarci_4x,false,0
 ghost_pos.bmp,0688c30b4f1e48ff2f721a58008d3b82b67622c9,4714bca6543db26fa2b88c346a9bec6fff46b2ae,true,ps2 textures\OPAQUE\bp_remade,true,true,2,remarci_4x,false,0
 iro_boots.bmp,9356d052a7df7b79cae479f8a308f27608fc4ba6,1a272c08f19304585d3cf4eadb6d5baf440d4902,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared,true,true,2,remarci_4x,false,0
+iro_hair_base.bmp,102c9dc50b1df1a13d68ee31742fe0a3c1f96698,5af6b07ff237c9b649c5f134ecd4cbc5370b6577,true,ps2 textures\OPAQUE\bp_remade,true,true,2,remarci_4x,false,0
+iro_hi_face.bmp,abe568f44c5d266f7da91ea48a108d928c307561,76bbe2c6c1964cb81b255f66e91b021383e52bdf,true,ps2 textures\OPAQUE\bp_remade,true,true,2,remarci_4x,false,0
+iro_hi_face_bandage.bmp,767e2390df6971302fbc491d29bbad10bc2bc371,43202303fe8097191a8b38fc42cc9bb0ea96029e,true,ps2 textures\OPAQUE\bp_remade,true,true,2,remarci_4x,false,0
+iro_snawear.bmp,fdb69009abc2c43c51cf8eab69fba8320ae112fa,256f1f5190c83c2bd55c0566ed53cfd6d2405b5f,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared,true,false,0,none,false,1
 m3l_gou_02msk.bmp,38de8e37a584aa68a98181af59196679d96f7818,3f35455a9a84b37dfdad43124135cf00e345a2fe,true,ps2 textures\HAS ALPHA\bp_remade,false,true,2,remarci_4x,false,0
 megami.bmp,1cc70bbe945ac92d1769b94f904fa40bc6dba074,075c0894b28a9bc560676d26b2846aa02eee35c3,true,ps2 textures\OPAQUE,true,true,2,remarci_4x,false,0
 n_oil_ref_add_alp_ovl_mod1120.bmp,a49316c7863e3442d8e19ac9253cc7e11521f5f2,73bf3852b8e2dc7d679f1b188c087f658d46ba22,true,ps2 textures\OPAQUE,true,true,2,remarci_4x,false,0
@@ -13,6 +17,7 @@ sel_bag2blood.bmp,4b1c7cbd2cb0cf5918124e7fbe8010093ec8e746,13593bc8bd846f6e44c09
 sel_boots.bmp,9356d052a7df7b79cae479f8a308f27608fc4ba6,39a69bb48e5439085ae070bd658d02788f879f78,true,ps2 textures\OPAQUE\bp_remade,true,true,2,remarci_4x,false,0
 sna_body_ss01dt.bmp,6904e983f7e4f7d9d13d83c4446a16433657a612,3debb130fdaac6dd3d2781ef3102ac493c418d3d,true,ps2 textures\OPAQUE\bp_remade,true,true,2,remarci_4x,false,0
 sna_hair1_alp_ovl.bmp,14b8070f96043ac6387a3ca41b9698428a5373c6,804f5fe55b528e3e072ea12b7f272923924ef641,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared,false,true,2,remarci_4x,false,0
+sna_hi_face_shave.bmp,00defa8c73bb5abd6a993419a66f808f4bc19d67,f4aacca3e0e591e99e76aaf53645a36f99ae8f71,true,ps2 textures\OPAQUE,true,true,2,remarci_4x,false,0
 w00a_pol1.bmp,9a589680b2bae15fa5384b122c673b5b533f5cdb,19c9a91f7e19f1af3a55267a5e8c86d57b2ad1c2,true,ps2 textures\OPAQUE,true,true,2,remarci_4x,false,0
 w01a0_box00.bmp,dd0316b46fe98a57f45bccc9810df12c36b37df8,2fe507f17e6907c2f58558aba58fc9a5ad92d385,true,ps2 textures\OPAQUE\bp_remade,true,true,2,remarci_4x,false,0
 w01a0_box002.bmp,842df7d6c9f51b42b0ddb54d409d54ca8be492f0,f9d84d0ea17a311c1d5913556c3e5e0e156ae8f1,true,ps2 textures\OPAQUE\bp_remade,true,true,2,remarci_4x,false,0

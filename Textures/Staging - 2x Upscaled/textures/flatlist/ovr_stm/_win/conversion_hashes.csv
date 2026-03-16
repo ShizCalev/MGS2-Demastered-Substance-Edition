@@ -443,7 +443,7 @@ iro_sk_face.bmp,ce42ed7f4956b951c14c33b13e4fd13a7d89a169,e56b08f8427130493fb59c3
 iro_skin.bmp,213a49e86dc7756a10b0808c6c12be5d7d688249,b7f19d355d98dc2aa837287dfec380d2ca3ba83b,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 iro_skin_bandage.bmp,576ca91b6c9ad4dd16261949a82c1cfbd857fee8,e19a1cf5411eb060bbea3e9c232c09efbff62b7b,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 iro_skin_blood.bmp,6d8aefef6ae6736fe9669f9301370807466b247a,a516b8dd17e252fdbdb73acd7ca463bf97bf874d,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
-iro_snawear.bmp,3254499691a07d969e39df4b60bfcfd140227093,e3aaa7c98aefc517f47c914a01c0e8235d440e63,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
+iro_snawear.bmp,3254499691a07d969e39df4b60bfcfd140227093,654c644928b184563092d24188fa04ab4b4b3912,true,ps2 textures\opaque\bp_remade,true,false,0,none,false,1
 irs_box_all.bmp,70c6a47ed15e814f4e1f288481520ef0f2bde6f1,28ce95dbf7264258b7dfddc4c27e3aab3065e792,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 irs_box_back.bmp,392161673ef2cc9711d26613858ff40cf98df581,77c66f052a4ab3feafbf62dd5f1075b5f8b847f6,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 irs_box_break.bmp,2d18c70a1742db4e656d0b31ff1c46810d39ff82,10c504d794525e71e59b0ed21bd08277144e32d0,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
