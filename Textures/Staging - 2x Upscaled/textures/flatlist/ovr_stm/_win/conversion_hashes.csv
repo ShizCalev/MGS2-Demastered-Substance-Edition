@@ -909,7 +909,7 @@ sna_bandana_msk.bmp,ec7a925a0c256f2ba16c7df71a1bfa5367ac4f91,7894427ba4169827e13
 sna_belt_leg.bmp,19ce1801df1c06fc4af7c98a212daef322c307b4,8a42dfda9bb11dd1f5b3c938cb518c1be5af07ae,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 sna_body_ss01dt.bmp,6904e983f7e4f7d9d13d83c4446a16433657a612,3debb130fdaac6dd3d2781ef3102ac493c418d3d,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 sna_foot01dt.bmp,e9ae00f6e10d225f96fe92d1d47397a417d8740c,04adc6036da2091646d766781fb1ce6b5e10c3ed,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
-sna_hair1_alp_ovl.bmp,8a43f5dbbf3cc131f59fd1b1c15e7405a5ea848e,96315a85acad76546a7f0e1d65936509511a9dc2,true,ps2 textures\HAS ALPHA\bp_remade,false,true,2,remarci_4x,false,0
+sna_hair1_alp_ovl.bmp,8a43f5dbbf3cc131f59fd1b1c15e7405a5ea848e,2fb3afa44c1222bee88ffe7fbe9b931343fd5797,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,1
 sna_hair2dt_alp_ovl.bmp,5a21afd0a5e63c6eea1aea926b5736a977d1b531,9d465e5d700ef29b6760ae03daf08a57889dae6d,true,ps2 textures\HAS ALPHA\bp_remade,false,true,2,remarci_4x,false,0
 sna_hair3.bmp,5063815241471582695f754824a91039f92505da,730a8a9228888094df8b4f1b94205c8bdb1623cc,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 sna_hand1dt.bmp,14e4209c97d8394972888a1d05e62638c7415fa2,675d5cd9bcc94143efaa3e2848a1c039f5f17774,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
