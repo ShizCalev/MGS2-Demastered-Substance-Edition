@@ -1075,7 +1075,7 @@ usp_sb_all2.bmp,6426a797f17d90782532825a577ccfb67c50a4f0,cf02a015ff6f3ed19b1e71c
 val_amo1.bmp,b1d327e8bdb8eb49064216f93b14d6d3077836a0,e708dbcd1aec12ab83d4f3d7932b36da482675e1,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 ved_rope_lit.bmp,f482a7e0ceb449bec71a97abad6f80c584a21639,eaa869c7fbc25c7766c4730eb3ba30f5d4f59bdb,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 vkf_big_mt.bmp,fb987f365b09116ce7c045f18a6c2bae96265bbc,aba4059ac356c4beea547bfbe7a39a6560159004,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
-w00_sky_add_alp.bmp,6f99c16318425a504a828c45321dc6ee782dd91d,b7f438455bd034c1d1eaa2a2a6ae4a39024cc73e,true,ps2 textures\HAS ALPHA\bp_remade,false,true,2,remarci_4x,false,0
+w00_sky_add_alp.bmp,6f99c16318425a504a828c45321dc6ee782dd91d,511653d7df1b5a7820c2597e340669dac7c86229,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,1
 w00_stp_t1.bmp,10e96ad0c7e280ce53df5d2ff8f994ac2b3f81cc,87acac749daf8e51d6f8865a1fe1b1412f02c996,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 w00a_frt1.bmp,46469ccfa29cf3e5a15b8da42ade26ea5b625d74,9c2b702327c016a23402f2107927319d6deccf5b,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
 w00a_os1.bmp,f2d1038cc45336ef25fa66f97f9451e2ff8a3029,7d87f2b568375cf423b34009655e815c6c72e6d8,true,ps2 textures\opaque\bp_remade,true,true,2,remarci_4x,false,0
