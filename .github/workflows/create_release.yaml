@@ -46,6 +46,31 @@ jobs:
 
         echo "version=$version" >> $GITHUB_OUTPUT
 
+    - name: Verify release does not already exist
+      shell: pwsh
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        $version = "${{ steps.extract_version.outputs.version }}"
+
+        Write-Host "Checking whether release/tag already exists for version $version..."
+
+        $releaseExists = gh release view $version --repo "${{ github.repository }}" 2>$null
+
+        if ($LASTEXITCODE -eq 0) {
+          Write-Error "Release posting already exists for version $version. Bump version.h before creating a new release."
+          exit 1
+        }
+
+        $tagExists = git ls-remote --tags origin "refs/tags/$version"
+
+        if ($tagExists) {
+          Write-Error "Git tag already exists for version $version. Bump version.h before creating a new release."
+          exit 1
+        }
+
+        Write-Host "No existing release or tag found for version $version."
+
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
 
@@ -154,3 +179,95 @@ jobs:
         draft: true
         generateReleaseNotes: true
         artifactErrorsFailBuild: true
+
+    - name: Upload to NexusMods - Base - PS2 Resolution
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      with:
+        api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+        file_group_id: 688891
+        display_name: "MGS2 PS2 Demaster (Sub) - Base - PS2 Resolution"
+        filename: MGS2-Demastered-Sub_Base_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip
+        version: "${{ steps.extract_version.outputs.version }}"
+        file_category: main
+        archive_existing_file: true
+        description: |
+            All the original PS2 textures at their original size.
+
+            UI textures not included.
+
+    - name: Upload to NexusMods - Base - 2x AI Upscaled
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      with:
+        api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+        file_group_id: 688897
+        display_name: "MGS2 PS2 Demaster (Sub) - Base - 2x AI Upscaled"
+        filename: MGS2-Demastered-Sub_Base_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip
+        version: "${{ steps.extract_version.outputs.version }}"
+        file_category: main
+        archive_existing_file: true
+        description: |
+            The original PS2 textures, 2x AI upscaled using the same upscaler as the MGS2 Community Bugfix Compilation for visual consistency.
+
+            UI textures not included.
+
+    - name: Upload to NexusMods - Base - 4x AI Upscaled
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      with:
+        api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+        file_group_id: 688894
+        display_name: "MGS2 PS2 Demaster (Sub) - Base - 4x AI Upscaled"
+        filename: MGS2-Demastered-Sub_Base_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip
+        version: "${{ steps.extract_version.outputs.version }}"
+        file_category: main
+        archive_existing_file: true
+        description: |
+            The original PS2 textures, 4x AI upscaled using the same upscaler as the MGS2 Community Bugfix Compilation for visual consistency.
+
+            UI textures not included.
+
+    - name: Upload to NexusMods - UI Only - PS2 Resolution
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      with:
+        api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+        file_group_id: 688900
+        display_name: "MGS2 PS2 Demaster (Sub) - UI Only - PS2 Resolution"
+        filename: MGS2-Demastered-Sub_UI_ONLY_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip
+        version: "${{ steps.extract_version.outputs.version }}"
+        file_category: optional
+        archive_existing_file: true
+        description: |
+            All the original PS2 UI textures, at their original resolution.
+
+            This is ONLY the UI textures!
+
+            
+    - name: Upload to NexusMods - UI Only - 2x AI Upscaled
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      with:
+        api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+        file_group_id: 688903
+        display_name: "MGS2 PS2 Demaster (Sub) - UI Only - 2x AI Upscaled"
+        filename: MGS2-Demastered-Sub_UI_ONLY_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip
+        version: "${{ steps.extract_version.outputs.version }}"
+        file_category: optional
+        archive_existing_file: true
+        description: |
+            The original PS2 UI textures, 2x AI upscaled using the same upscaler as the MGS2 Community Bugfix Compilation for visual consistency.
+
+            This is ONLY the UI textures!
+
+
+    - name: Upload to NexusMods - UI Only - 4x AI Upscaled
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      with:
+        api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+        file_group_id: 688906
+        display_name: "MGS2 PS2 Demaster (Sub) - UI Only - 4x AI Upscaled"
+        filename: MGS2-Demastered-Sub_UI_ONLY_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip
+        version: "${{ steps.extract_version.outputs.version }}"
+        file_category: optional
+        archive_existing_file: true
+        description: |
+            The original PS2 UI textures, 4x AI upscaled using the same upscaler as the MGS2 Community Bugfix Compilation for visual consistency.
+
+            This is ONLY the UI textures!
