@@ -1,19 +1,19 @@
-filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,upscaler_version,upscaler_type,ctxr3_converted,non_upscaled_version,npot_resized
-0007bc34,da1f5db2a65e18da1f5abacdeaf0d224d09f56b3,91d05f4e012e353b664c0f1ec7e30865197d091f,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Substance\UI,false,true,4,remarci_4x,false,0,false
-0009bc34,c68cd2b9ee0a8f85984570a53f2c1a284660228d,81b27ec64358063ed6b7d183a1695c9a31b7cecc,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,4,remarci_4x,false,0,false
-0009bc34_b930b4499997afc4e26e408ea169f9c7,ba34283c172431fa75f69d68824c7d23d92fb6c2,47969fbeff91766338e8bc49829c479b22a66d83,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,4,remarci_4x,false,0,false
-001463f1,f7fd3a851653ee8d176b68ef7abe42cfea5ee22b,29822665b9b5dc83b0d22a40e055d07960fe6dee,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,4,remarci_4x,false,0,false
-00481d9d,606a055cea5eadff5bafb1f8b1249fb3ad4dbbdc,63512a98bc9879c9512d3db15bdf979c873365ad,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,4,remarci_4x,false,0,false
-004d1d9d,cf331eec33ffcc8f25791c584624784242ae062f,4748d915a6b9cf21b80da129ba92470cc3a9d6d3,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,4,remarci_4x,false,0,false
-004f1d9d,0e86b4aa99c3edc58b888322c418cad2a285813a,1d0bda39a7e2735a33fc38e6a074f56ecd194b33,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,4,remarci_4x,false,0,false
-006f7421,1e5ab9bbc6d62a3366af50e38f6a13e3230ced07,d612350f95f1c364c52c4ab0277ee7bf1a0d27f0,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,4,remarci_4x,false,0,false
-00bc9205,7296cd13cf0ecc546eb543aff8def4a7a1fb9d94,aefb2fa12346eaa026750345d47c20b2c5e552e7,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,4,remarci_4x,false,0,false
-00cdeba7,a3b7940c108209344bc299ad557a8a17802cfe0d,e3b004ff23b04a13dcadc6da8111b48faedb4a60,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,4,remarci_4x,false,0,false
-animal_alp_ovl.bmp,22092c1a8c2e2c08d3422e901e9ced2710ae33b3,9dc4f5247662afcab4bc5fce203264f24b49323b,false,ps2 textures\OPAQUE\bp_remade\no_mip_fixes\ui,true,false,0,none,true,4,false
-berrazano_alp_ovl.bmp,b6e7fc9d4e7a0b790e037b9f2636ea2b25f61f6b,db352268a1669bfc39c277f00d9c5691121bae5c,true,ps2 textures\HAS ALPHA\no_mip_fixes\ui,false,true,4,remarci_4x,false,0,false
-bigshell_alp_ovl.bmp,e0408dfd956bfab331a23cd0396452d103675223,974c142136e7bddb270df43ffef97a3bc9558f99,true,ps2 textures\HAS ALPHA\no_mip_fixes\ui,false,true,4,remarci_4x,false,0,false
-exit_alp_ovl.bmp,1c2913c5cb84c29895b37e6751173a25ac9456ff,97cc7e507aa2716c5522287c19421fec12345ce2,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,4,remarci_4x,false,0,false
-taisa_gb_alp_ovl.bmp,55f856a9edaa268f5cf745d2f240923f6c94dd0e,9e90a8513ddcf0e1835fab1e808dec9cae52b154,false,ps2 textures\OPAQUE\no_mip_fixes\ui,true,false,0,none,true,4,false
-taisa_mgs1_alp_ovl.bmp,0a33d4a50c5dfeb1ae3c7f0beaee46420545f23f,b3ada927ecd88fb2993c2f77ef52794d43038f9a,false,ps2 textures\OPAQUE\no_mip_fixes\ui,true,false,0,none,true,4,false
-taisa_msx_alp_ovl.bmp,59de3b5ad88640f284136146a53487d976c86902,09b188c8d6eb44f0824dc854de7c0c4f67044a1c,false,ps2 textures\OPAQUE\no_mip_fixes\ui,true,false,0,none,true,4,false
-title_logo_blue_alp_ovl.bmp,07b7caa1f8614fbf2bba003d4f467d617477ac5c,163460a21d63bdf2db8fd14f534fc78d73b867ff,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,4,remarci_4x,false,0,false
+filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,upscaler_version,upscaler_type,non_upscaled_version,ctxr3_converted,npot_resized
+0007bc34,da1f5db2a65e18da1f5abacdeaf0d224d09f56b3,3d0b127769d0eb7182263e5078a604f10422c45c,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Substance\UI,false,true,5,remarci_4x,0,false,false
+0009bc34,c68cd2b9ee0a8f85984570a53f2c1a284660228d,f70823e489bcbe9ae5605d0a27a12cb2075b2578,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,5,remarci_4x,0,false,false
+0009bc34_b930b4499997afc4e26e408ea169f9c7,ba34283c172431fa75f69d68824c7d23d92fb6c2,14c2df21b6727468a635c2df790819ae2da546fb,true,ps2 textures\HAS ALPHA\bp_remade\no_mip_fixes\ui,false,true,5,remarci_4x,0,false,false
+001463f1,f7fd3a851653ee8d176b68ef7abe42cfea5ee22b,55c830cf21fe922d3959052fd195209e2da247e1,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,5,remarci_4x,0,false,false
+00481d9d,606a055cea5eadff5bafb1f8b1249fb3ad4dbbdc,76cd18dc02fc16340d9c0dd926d95041757ba6fd,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,5,remarci_4x,0,false,false
+004d1d9d,cf331eec33ffcc8f25791c584624784242ae062f,9c3171b294045617ff48b7334920e150f5d1ddc6,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,5,remarci_4x,0,false,false
+004f1d9d,0e86b4aa99c3edc58b888322c418cad2a285813a,3b6f789013559148fbe0509c21f2340ba551e572,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,5,remarci_4x,0,false,false
+006f7421,1e5ab9bbc6d62a3366af50e38f6a13e3230ced07,c6a766b1af59992ce86bef020f043fae0c301249,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,5,remarci_4x,0,false,false
+00bc9205,7296cd13cf0ecc546eb543aff8def4a7a1fb9d94,db972e34fa237b93b636ae7dcf2f113f3f332fee,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,5,remarci_4x,0,false,false
+00cdeba7,a3b7940c108209344bc299ad557a8a17802cfe0d,c1d7e12da2e36df84f9f680dc1ed2127bb363203,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,5,remarci_4x,0,false,false
+animal_alp_ovl.bmp,22092c1a8c2e2c08d3422e901e9ced2710ae33b3,9dc4f5247662afcab4bc5fce203264f24b49323b,false,ps2 textures\OPAQUE\bp_remade\no_mip_fixes\ui,true,false,0,none,5,true,false
+berrazano_alp_ovl.bmp,b6e7fc9d4e7a0b790e037b9f2636ea2b25f61f6b,dd059da94684088b15d2b6d68154b266e2ec4ad7,true,ps2 textures\HAS ALPHA\no_mip_fixes\ui,false,true,5,remarci_4x,0,false,false
+bigshell_alp_ovl.bmp,e0408dfd956bfab331a23cd0396452d103675223,8e861fa97e2ca43003ee1250ad5e9aa7054a3903,true,ps2 textures\HAS ALPHA\no_mip_fixes\ui,false,true,5,remarci_4x,0,false,false
+exit_alp_ovl.bmp,1c2913c5cb84c29895b37e6751173a25ac9456ff,f1583a6488f46441489fc66df3b14df4cd5198b7,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,5,remarci_4x,0,false,false
+taisa_gb_alp_ovl.bmp,55f856a9edaa268f5cf745d2f240923f6c94dd0e,9e90a8513ddcf0e1835fab1e808dec9cae52b154,false,ps2 textures\OPAQUE\no_mip_fixes\ui,true,false,0,none,5,true,false
+taisa_mgs1_alp_ovl.bmp,0a33d4a50c5dfeb1ae3c7f0beaee46420545f23f,b3ada927ecd88fb2993c2f77ef52794d43038f9a,false,ps2 textures\OPAQUE\no_mip_fixes\ui,true,false,0,none,5,true,false
+taisa_msx_alp_ovl.bmp,59de3b5ad88640f284136146a53487d976c86902,09b188c8d6eb44f0824dc854de7c0c4f67044a1c,false,ps2 textures\OPAQUE\no_mip_fixes\ui,true,false,0,none,5,true,false
+title_logo_blue_alp_ovl.bmp,07b7caa1f8614fbf2bba003d4f467d617477ac5c,68dd4f25a0c6713fe7cc80b84be7e382e1e823fd,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared,false,true,5,remarci_4x,0,false,false
