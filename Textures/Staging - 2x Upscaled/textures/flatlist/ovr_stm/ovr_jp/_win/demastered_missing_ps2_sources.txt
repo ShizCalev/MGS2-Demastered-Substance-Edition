@@ -2,4 +2,4 @@
 # These Self Remade textures had no matching file under PS2_TEXTURES_ROOT.
 # They were skipped and not processed in this run.
 
-spacecore_taisa_subsist_alp_ovl.bmp.png
+alt_w24c1_rev_disp_01.bmp.png

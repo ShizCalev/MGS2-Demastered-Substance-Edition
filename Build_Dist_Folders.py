@@ -36,9 +36,9 @@ UNKNOWN_PREFIXES_SEEN: set[str] = set()
 VORTEX_MODS_DIR = Path(r"C:\Vortex\metalgearsolid2mc\mods")
 
 LOCAL_SYNC_PREFIXES: dict[str, str] = {
-    "dist": "MGS2 PS2 Demaster (Sub) - Base - PS2 Resolution",
+    "dist": "10_cf_88_10cf8805-79e3-4aa2-a3c3-25a25d93f284",
     #"dist_2x": "MGS2 PS2 Demaster (Sub) - Base - 2x AI Upscaled",
-    "dist_4x": "MGS2 PS2 Demaster (Sub) - Base - 4x AI Upscaled",
+    "dist_4x": "ba_42_9c_ba429c7f-e58f-4796-866a-ec3864cb2cb8",
     "dist_ui": "MGS2 PS2 Demaster (Sub) - UI Only - PS2 Resolution",
     #"dist_2x_ui": ",
     #"dist_4x_ui": "MGS2 PS2 Demaster (Sub) - UI Only - 4x AI Upscaled"

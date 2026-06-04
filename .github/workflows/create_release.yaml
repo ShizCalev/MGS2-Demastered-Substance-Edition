@@ -181,7 +181,7 @@ jobs:
         artifactErrorsFailBuild: true
 
     - name: Upload to NexusMods - Base - PS2 Resolution
-      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.6
       with:
         api_key: ${{ secrets.NEXUSMODS_API_KEY }}
         file_group_id: 688891
@@ -190,13 +190,14 @@ jobs:
         version: "${{ steps.extract_version.outputs.version }}"
         file_category: main
         archive_existing_file: true
+        primary_mod_manager_download: true
         description: |
             All the original PS2 textures at their original size.
 
             UI textures not included.
 
     - name: Upload to NexusMods - Base - 2x AI Upscaled
-      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.6
       with:
         api_key: ${{ secrets.NEXUSMODS_API_KEY }}
         file_group_id: 688897
@@ -211,7 +212,7 @@ jobs:
             UI textures not included.
 
     - name: Upload to NexusMods - Base - 4x AI Upscaled
-      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.6
       with:
         api_key: ${{ secrets.NEXUSMODS_API_KEY }}
         file_group_id: 688894
@@ -226,7 +227,7 @@ jobs:
             UI textures not included.
 
     - name: Upload to NexusMods - UI Only - PS2 Resolution
-      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.6
       with:
         api_key: ${{ secrets.NEXUSMODS_API_KEY }}
         file_group_id: 688900
@@ -242,7 +243,7 @@ jobs:
 
             
     - name: Upload to NexusMods - UI Only - 2x AI Upscaled
-      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.6
       with:
         api_key: ${{ secrets.NEXUSMODS_API_KEY }}
         file_group_id: 688903
@@ -258,7 +259,7 @@ jobs:
 
 
     - name: Upload to NexusMods - UI Only - 4x AI Upscaled
-      uses: Nexus-Mods/upload-action@v1.0.0-beta.5
+      uses: Nexus-Mods/upload-action@v1.0.0-beta.6
       with:
         api_key: ${{ secrets.NEXUSMODS_API_KEY }}
         file_group_id: 688906
